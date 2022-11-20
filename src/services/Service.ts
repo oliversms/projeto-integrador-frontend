@@ -2,6 +2,7 @@ import axios from 'axios';
 
 export const api = axios.create({
     baseURL: 'https://colheita-fresca.onrender.com/'
+      //baseURL: 'http://localhost:8080/'
 })
 
 export const cadastroUsuario = async (url: any, dados: any, setDados: any) => {
